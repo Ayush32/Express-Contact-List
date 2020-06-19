@@ -1,0 +1,209 @@
+body{
+    font-family: sans-serif;
+   /* background-image: linear-gradient(-225deg, #000000 0%, #020f2f 48%, #000000 100%); */
+   /* background-image: url(/images/2927262.jpg); */
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   padding: 0;
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+body,
+html{
+    margin:0;
+    overflow-x: hidden;
+    }
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.ml6{
+    text-align: center;
+    margin: 2%;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+input{
+    width: 17vw;
+    height: 2.5vw;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 15px;
+    color: black;
+    border: 2px solid white;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all ease-in-out 0.1s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+input:hover{
+    box-shadow: 0px 0px 6px 3px white;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 18px;
+     font-family: Verdana,
+     Geneva,
+     Tahoma,
+     sans-serif;
+     transition: all ease-in-out 0.1s;  
+}
+
+button:hover{
+    box-shadow: 0px 0px 6px 3px white;
+    background-image: linear-gradient(-20deg, #041520 0%, #4e4376 100%);
+    color:white;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+    height: 67vh;
+    overflow-y: hidden;
+}
+
+ul::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    background-image: linear-gradient(to right, #094250 0%, #092b41 100%);
+    justify-content: space-between;
+    /* opacity: 0.8; */
+    align-items: center;
+    margin: 8px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 10px;
+    transition:  box-shadow ease-in-out 0.1s;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+
+li:hover{
+    box-shadow: 0px 0px 6px 3px white;
+    color: white;
+    opacity: 1;
+}
+
+
+
+
+
+.list-container ul li p{
+    display: inline-block;
+    /* background-color: aliceblue; */
+    
+}
+
+.ml6{
+    animation-name: glowingText;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+a{
+    padding: 5px;
+    /* transition: all ease-in-out 0.3s; */
+    animation: deleteButton;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+
+}
+
+@keyframes deleteButton{
+    0%{
+        color: rgb(255, 53, 53);
+    }
+
+    50%{
+        color: gold
+    }
+    10%{
+        color: greenyellow;
+    }
+}
+
+
+
+
+@keyframes glowingText{
+    0%{
+        color: white;
+    }
+
+    25%{
+        color: rgb(0, 255, 238);
+    }
+
+    50%{
+        color: #f9d423;
+    }
+    
+
+    100%{
+        color: greenyellow;
+    }
+}
