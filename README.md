@@ -21,6 +21,6 @@
 
 ## Screenshots
 
-![alt text](https://github.com/[Ayush32]/Express-Contact-List/assets/images/Capture1.png?raw=true)
+![alt text](https://github.com/[Ayush32]/Express-Contact-List/assets/Capture1.png?raw=true)
 
 
