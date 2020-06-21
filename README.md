@@ -21,5 +21,6 @@
 
 ## Screenshots
 
-![Alt text](C:\Users\ayush\Desktop/Capture1.png?raw=true "Title")
+![](assets/images/Capture1.PNG)
+
 
